@@ -9,91 +9,68 @@ Join the mining pool, use GPU, Solo and other ways to participate in mining
 Before you start mining for the first time, you need [Create Account](https://wallet.hacash.org?lang=[:=lang.useset:]), used to collect HAC mining rewards.
 
 
-<a name="pool"></a>
-
-## Join Pool to Mining
-
-Hacash community has several mining pools to choose from, just visit the mining pool website, download the corresponding mining tools, you can easily start mining:
-
-<pre class="links">
-.Diamonds Pool
-https://www.hacash.diamonds/pool
-hxdm
-Support CPU & GPU
-</pre>
-
-Different mining pools have different settlement rules and rate standards, please see the page of each mining pool service for details. Take the `.org` test mining pool as an example, give the tutorial of joining the mining pool mining, first download the mining pool mining software:
-
-- [Hacash Fullnode Center](https://github.com/hacash/node/releases)
-- [Hacash Miner Center](https://github.com/hacash/miner/releases)
-
-The downloaded mining software archive contains an executable file and a `.ini` format configuration file, similar to:
-
-
-<pre class="log">
-1 │ miner_pool_worker_2023_11_02_01.exe │ 3.6MB
-2 │ poolworker.config.ini               │ 347B
-</pre>
-
-The `poolworker.config.ini` file in the compressed package is the necessary configuration file for the miner program, opened with the editor, you can see the internal content is:
-
-
-<pre class="log cnf">
-<i>pool</i> = <s>182.92.163.225:3339</s>
-<i>rewards</i> = <s>1AVRuFXNFi3rdMrPH4hdqSgFrEBnWisWaS</s>
-<i>supervene</i> = <s>8</s>
-</pre>
-
-The `pool` parameter is the address of the mine pool and represents the IP and port of the server to be connected. The default IP address 182.92.163.225:3339 in the profile is a long running and valid mining pool address that can be used directly and is operated by Hacash.org. If you use another third party pool, contact your pool provider for a valid IP connection address.
-
-<p class="note">Note: Some of the mining software of the mining pool provider has an IP address built in through encryption, so there is no need to fill in the config file.</p>
-
-
-The string value of the `rewards` parameter is the account address of Hacash, which is used to receive rewards from mining. This address must be generated through the purse, have a specific format, you can use the [online wallet](https://wallet.hacash.org?lang=[:=lang.useset:]), through strict confidentiality and make backup password, or create a private key to generate the account address. 
-
-The parameter `supervene` indicates how many threads mining is enabled at the same time, which is generally consistent with the number of CPU cores on your computer to maximize computing power. For example, the number of CPU cores in your computer is 2 cores, then 'supervene = 8' is changed to `supervene = 2`, if it is 4 cores, it is changed to `supervene = 4`, and so on. The CPU utilization of the computer is 100%. It is generally recommended to set aside a core for other calculations: 4 cores set to 3 and 8 cores set to 7. Can also be set according to your situation, the smaller the value, the lower the CPU utilization. This value does not support decimals, is as small as 1, and is not recommended to be set to a value larger than the number of CPU cores on your computer.
-
-After the modification is complete and saved, run by command line or double-click it. You will see the following information:
-
-<pre class="print">[Start] connect: 182.92.163.225:3339, rewards: 1AVRuFXNFi3rdMrPH4hdqSgFrEBnWisWaS, supervene: 8. 
-connecting miner pool... ok.
-do mining height:‹497921›, cbmn:1... 
-</pre>
-
-At this time, the program has automatically started mining, you can open the task manager to view the utilization of the CPU, and see the statistics of the mining power to join the mining pool: [http://182.92.163.225:3340](http://182.92.163.225:3340). If using a third party mining pool, please contact your mining pool provider to view real-time statistics and the amount of mining rewards you are entitled to.
-
-
-
 <a name="fullnode"></a>
 
-## Mining on Full Node
+## With fullnode to mining
 
-Before mining on full node，need to [Run Full Node](/run-full-node), and wait for all block data synchronization to complete.
+Before starting full node mining, you need to [run full node](/run-full-node) and wait for all block data synchronization to complete.
 
-The full-node software has a built-in mining function, requiring only a few configuration changes to automatically start mining. The `hacash.config.ini` file is the mandatory configuration file for the Hacash full-node program and contains various configurations. You only need to modify the three parameters under the `[miner]` item in the configuration file:
+
+First of all, you need to configure the full node according to the [Hacash Config Instruction](https://github.com/hacash/doc/blob/main/build/config_description.md), Modify the configuration to enable mining. The `hacash.config.ini` file is a required configuration file for a Hacash full node program and contains various configurations. You need to modify the three parameters under `[miner]` in the configuration file:
 
 <pre class="log cnf">
 <b>[miner]</b>
 <i>enable</i> = <s>true</s>
-<i>supervene</i> = <s>1</s>
-<i>rewards</i> = <s>1AVRuFXNFi3rdMrPH4hdqSgFrEBnWisWaS</s>
+<i>reward</i> = <s>1AVRuFXNFi3rdMrPH4hdqSgFrEBnWisWaS</s>
 <i>message</i> = <s>unknown</s>
 </pre>
 
-Drop the semicolon `;` in front of `enable = true` to open mining mode（Semicolon `;`indicates to close this item so that it does not take effect, and other item configurations such as HACD mining do the same). The parameter `supervene` indicates how many threads mining is enabled at the same time, which is generally consistent with the number of CPU cores on your computer to maximize computing power. For example, the number of CPU cores in your computer is 2 cores, then 'supervene = 8' is changed to `supervene = 2`, if it is 4 cores, it is changed to `supervene = 4`, and so on. The CPU utilization of the computer is 100%. It is generally recommended to set aside a core for other calculations: 4 cores set to 3 and 8 cores set to 7. Can also be set according to your situation, the smaller the value, the lower the CPU utilization. This value does not support decimals, is as small as 1, and is not recommended to be set to a value larger than the number of CPU cores on your computer.
+Where, delete the semicolon before `enable = true` indicates that mining is started (semicolon ';' indicates that the comment item does not take effect, and the same applies to other item configurations such as HACD mining).
 
-The string value of the `rewards` parameter is the account address of Hacash, which is used to receive rewards from mining. This address must be generated through the purse, have a specific format, you can use the [online wallet](https://wallet.hacash.org?lang=[:=lang.useset:]), through strict confidentiality and make backup password, or create a private key to generate the account address. `message` is the identifier of the block announcer, and generally only mining pool need to be set.
+The string value of the `reward` parameter is the account address of Hacash, which is used to receive the monetary rewards generated by mining. This address must be generated through a wallet, in a specific format, using an [online wallet](https://wallet.hacash.org?lang=[:=lang.useset:]), a password that is kept strictly confidential and backed up, or a randomly created private key. `message` is the identifier of the block announcer, which is generally only required for mining pools.
 
-<p class="note">Note: You need to wait for block synchronization to complete before modifying the configuration, and then restart the full node for the mining configuration to take effect</p>
+Then, enable the configuration of the API service of the full node, so that the mining terminal can connect to the full node and get the latest mining data and block information:
 
-## Build Personal Mining Pool
+<pre class="log cnf">
+<b>[server]</b>
+<i>enable</i> = <s>true</s>
+<i>listen</i> = <s>8081</s>
+</pre>
 
-If there are multiple machines on the Intranet mining at the same time, you can build a private mining pool on the LAN, the same method as building a public mining pool, see:
+<p class="note">Note: Need to wait for the block synchronization to complete, then modify the configuration, and then restart the fullnode for the mining configuration to take effect.</p>
+
+## Start mining
+
+Then, download the `poworker` (HAC PoW miner worker) program for the corresponding operating system in the [Hacash Software Release Center](https://github.com/hacash/rust/releases) and follow the instructions in [Hacash Configuration Instructions](https://github.com/hacash/doc/blob/main/build/config_description.md) Modify the configuration of the mining program `poworker.config.ini`:
+
+<pre class="log cnf">
+<i>connect</i> = <s>127.0.0.1:8081</s>
+<i>supervene</i> = <s>4</s>
+</pre>
+
+The `connect` parameter indicates the IP and port of the full node API service to be connected, and the 'supervene' parameter indicates how many threads of mining are enabled at the same time, which is generally consistent with the number of CPU cores on your computer and can exert maximum computing power. For example, if your computer has 2 CPU cores, change `supervene = 8` to `supervene = 2`, if it has 4 cores, change it to `supervene = 4`, and so on. At this point, the computer's CPU utilization is 100%. It is generally recommended to set aside one core for other calculations: 4 cores for 3 cores and 8 cores for 7. It can also be set freely according to your situation, the lower the value, the lower the CPU utilization. This value doesn't support decimals, has a minimum of 1, and isn't recommended to be larger than the number of CPU cores on your PC.
+
+If there are multiple machines mining at the same time on the intranet, multiple devices can be connected to the same full node to establish a computing power cluster.
+
+Run the `hacash_poworker` program from the command line or by double-clicking, and you can see the following prints:
+
+<pre class="cmd">
+<b>./hacash_ubuntu_poworker  poworker.config.ini</b>
+[Config] Load: /root/rust/rust/poworker.config.ini 2024-09-10 20:44:23.
+[Start] Create #4 block miner worker thread.
+[09-10 20:44:23] req height 715 target 0000687b33 to mining ... 
+1470588 1470588, 0000064cde 0000064cde, ≈288.0000HAC/day 100.000000%, 490.20Kc/s. 
+
+████████████████ [MINING SUCCESS] Find a block height 715,
+██ hash 0000064cdee0e8ab50f7212e8b92149b9fbb828965832fe73404a0c824ba098f to submit.
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔      
+</pre>
+
+The `490.20Kc/s` shown at the end of the above print represents the real-time hashrate of the mining machine. WHEN THE FOLLOWING `[MINING SUCCESS]` MESSAGE IS PRINTED, IT INDICATES THAT A BLOCK HAS BEEN MINED SUCCESSFULLY.
+
+More Info:
 
 <pre class="links">
-Run Mining Pool
-/mining-pool
-
 Hacash Mining Tech Development
 https://github.com/hacash/doc/blob/main/tech/mining_tech_development_description.md
 </pre>

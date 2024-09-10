@@ -29,8 +29,6 @@ Run Full Node
 
 ## Start Mining
 
-## 开始挖矿
-
 First of all, you need to configure the full node according to the [Hacash Config Instruction](https://github.com/hacash/doc/blob/main/build/config_description.md), and modify some parameters under the `[diamondminer]` item in the configuration file `hacash.config.ini`:
 
 <pre class="log cnf">

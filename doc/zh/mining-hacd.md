@@ -27,8 +27,6 @@ HACD 仅支持全节点方式挖矿。在开始 HACD 挖掘之前，需要运行
 </pre>
 
 
-## 开始挖矿
-
 首先需要按照 [Hacash配置说明](https://github.com/hacash/doc/blob/main/build/config_description.md) 配置好全节点，修改配置文件 `hacash.config.ini` 中 `[diamondminer]` 项下的若干参数：
 
 <pre class="log cnf">
@@ -52,6 +50,9 @@ HACD 仅支持全节点方式挖矿。在开始 HACD 挖掘之前，需要运行
 <i>enable</i> = <s>true</s>
 <i>listen</i> = <s>8081</s>
 </pre>
+
+
+## 开始挖矿
 
 然后，在 [Hacash软件发布中心](https://github.com/hacash/rust/releases) 下载对应的操作系统的 `diaworker` (diamond miner worker) 程序，并按照 [Hacash配置说明](https://github.com/hacash/doc/blob/main/build/config_description.md) 修改好挖矿程序的配置 `diaworker.config.ini` ：
 
