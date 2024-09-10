@@ -1,3 +1,11 @@
+
+*.use.js
+*-lock.json
+static/jscss/*.js
+static/jscss/*.css
+
+
+
 # Logs
 logs
 *.log

@@ -1,0 +1,109 @@
+
+<div id="dnt">
+    <div class="container">
+        <p>
+            [:=lang.common.support.donate:]
+            <a href="https://explorer.hacash.org/address/12zzCzDxEvNBuZRyGq2sqQKSGCYBJrAJHU">12zzCzDxEvNBuZRyGq2sqQKSGCYBJrAJHU</a>
+        </p>
+    </div>
+</div>
+
+<div id="topbar" class="[:if(this.is_index_page){:]index[:}:] show"><div class="container">
+
+    <div class="box">
+        <div class="mbm"><span class="ftic">&#xe61d;</span></div>
+        <div>
+            <a class="logoft bktt" title="Back to top" href="/">
+                <img class="ftlg" src="/svg/logof[:if(this.is_index_page){:]?fill=fff[:}:]" />
+                <!-- <b class="fthac tblG">ㄜ</b><b class="hacash">Hacash</b> -->
+            </a>
+        </div>
+        <div class="navs mbhd" id="tpnvc">
+            <div class="item f">
+                <b class="b">[:=lang.common.tnv.ttls[0]:]</b>
+                <div class="swt">
+                    <ul>
+                        <li><a href="https://wallet.hacash.org?lang=[:=lang.useset:]">[:=lang.common.tnv.start[0]:]</a></li>
+                        <li><a href="/get">[:=lang.common.tnv.start[1]:]</a></li>
+                        <li><a href="https://explorer.hacash.org?lang=[:=lang.useset:]">[:=lang.common.tnv.start[2]:]</a></li>
+                        <li><a href="/individual">[:=lang.common.tnv.start[3]:]</a></li>
+                        <li><a href="/miner">[:=lang.common.tnv.start[4]:]</a></li>
+                        <li><a href="/business">[:=lang.common.tnv.start[5]:]</a></li>
+                        <li><a href="/developer">[:=lang.common.tnv.start[6]:]</a></li>
+                        <li><a href="/artist">[:=lang.common.tnv.start[7]:]</a></li>
+                        <li><a href="/run-full-node">[:=lang.common.tnv.start[8]:]</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <b class="b">[:=lang.common.tnv.ttls[1]:]</b>
+                <div class="swt">
+                    <ul>
+                        <li><a href="https://hacashdao.org?lang=[:=lang.useset:]">[:=lang.common.tnv.learn[8]:]</a></li>
+                        <li><a href="/HAC">[:=lang.common.tnv.learn[0]:]</a></li>
+                        <li><a href="/HACD">[:=lang.common.tnv.learn[1]:]</a></li>
+                        <li><a href="/BTC">[:=lang.common.tnv.learn[2]:]</a></li>
+                        <li><a href="layer-1">[:=lang.common.tnv.learn[3]:]</a></li>
+                        <li><a href="layer-2">[:=lang.common.tnv.learn[4]:]</a></li>
+                        <li><a href="layer-3">[:=lang.common.tnv.learn[5]:]</a></li>
+                        <li><a href="/HAC-unit">[:=lang.common.tnv.learn[7]:]</a></li>
+                        <li><a href="[:=lang.links.wp:]">[:=lang.common.tnv.learn[6]:]</a></li>
+                        [: if(lang.useset=='zh-CN'){ :]
+                        <li><a href="https://master.hacash.com">掌握Hacash(电子书)</a></li>
+                        [: } :]
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <b class="b">[:=lang.common.tnv.ttls[2]:]</b>
+                <div class="swt">
+                    <ul>
+                        <li><a href="/PoW">[:=lang.common.tnv.feature[0]:]</a></li>
+                        <li><a href="/flatcoin">[:=lang.common.tnv.feature[1]:]</a></li>
+                        <li><a href="/infra">[:=lang.common.tnv.feature[2]:]</a></li>
+                        <li><a href="/BTC">[:=lang.common.tnv.feature[3]:]</a></li>
+                        <li><a href="/cypherpunk">[:=lang.common.tnv.feature[4]:]</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <b class="b">[:=lang.common.tnv.ttls[3]:]</b>
+                <div class="swt">
+                    <ul>
+                        <li><a href="/development">[:=lang.common.tnv.resource[0]:]</a></li>
+                        <li><a href="/community">[:=lang.common.tnv.resource[1]:]</a></li>
+                        <li><a href="/ecosystem">[:=lang.common.tnv.resource[2]:]</a></li>
+                        <li><a href="/resource">[:=lang.common.tnv.resource[3]:]</a></li>
+                        <li><a href="https://github.com/hacash/rust/releases">[:=lang.common.tnv.resource[4]:]</a></li>
+                        <li><a href="https://github.com/hacash">[:=lang.common.tnv.resource[5]:]</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="navs">
+            <!-- <div class="itembr"><b></b></div> -->
+            <div class="item">
+                <!-- 
+                    'fr_FR': 'Français',
+                -->
+                [: var langlist = {
+                    'en-US': 'English',
+                    'zh-CN': '中文简体',
+                }; :]
+                [: var lgsts = {
+                    'en-US': 'En',
+                    'zh-CN': '中',
+                }; :]
+                <b class="b nt"><span>[:=lgsts[lang.useset]:]</span><i class="ftic">&#xe693;</i></b>
+                <!-- <b class="b nt ftic">&#xe693;</b> -->
+                <div class="swt">
+                    <ul>
+                        [: for(var i in langlist) { :]
+                            <li><a href="?lang=[:=i:]">[:=langlist[i]:]</a></li>
+                        [: } :]
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div></div>

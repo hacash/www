@@ -1,0 +1,247 @@
+
+.container{ max-width: 1180px; }
+
+#pgtt.nav {
+    @keyframes bgtsld
+    {
+        0% { top: 0px; }
+        50% { top: -4000px; }
+        100% { top: 0px; }
+    }
+    .navicos {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        text-align: left;
+        width: 360px;
+        line-height: 20px !important;
+        img {
+            height: 20px;
+            margin-right: 20px;
+            filter: drop-shadow(2px 1px 0 #fff);
+        }
+    }
+    .bgt {
+        // display: none;
+        animation: bgtsld 500s linear infinite;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 4400px;
+        opacity: 0.4;
+        filter: blur(4px);
+        // background-image: linear-gradient(to top, #161928, #273b56);
+    }
+    .ct {
+        display: none;
+        z-index: 3;
+        position: absolute;
+        width: 100%;
+        height: 50px;
+        left: 0;
+        bottom: 40px;
+        background: url(/cssimg/navdoc/citysd.png) repeat-x;
+        background-size: contain;
+        opacity: 1;
+    }
+    .box {
+        padding: 160px 0;
+        // background-image: linear-gradient(to right, #041020, #0c9abe);
+        background-image: linear-gradient(to right, #291e00, #e9cb79);
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        max-width: 82%;
+        margin: 0 9%;   
+    }
+    .h, .p {
+        position: relative;
+        text-shadow: 1px 1px 1px #000;
+        padding: 0;
+        margin: 0;
+    }
+    .h {
+        font-size: 56px;
+        line-height: 60px;
+    }
+    .p {
+        transition: all 0.5s;
+        font-size: 26px;
+        color: #f7af34;
+        transform: scale(20);
+        opacity: 0;
+        filter: blur(50px);
+    }
+    .p.show {
+        transform: scale(1);
+        opacity: 1;
+        filter: blur(0px);
+    }
+
+}
+
+
+#mdcon pre.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin: 80px 0;
+
+    @bdclr: #836033;
+    
+    .padiv {
+        margin: 1% 0;
+        width: 32%;
+    }
+    .nit {
+        transition: all 0.25s linear;
+        text-decoration: none;
+        margin: 1% 0;
+        width: 32%;
+        text-align: center;
+        background: none !important;
+    }
+    .box {
+        overflow: hidden;
+        position: relative;
+        transform: scale(1);
+        transition: all 0.33s linear;
+        position: relative;
+        // box-shadow: 3px 3px 1px #965b0f33;
+        height: 100%;
+        padding: 0 16px;
+        border: 1px solid #ddd;
+        // background: #00000000;
+    }
+    .bgic {
+        transition: all 0.1s linear;
+        z-index: 1;
+        position: absolute;
+        right: 0;
+        bottom: 0;  
+        height: 110px;
+        transform: scale(1.5) rotate(0deg);
+        opacity: 0.2;
+        filter: blur(3px) grayscale(0.8);;
+    }
+    .hdw {
+        padding: 60px 0 20px;
+        img {
+            transition: all .3s linear;
+            height: 60px;
+            filter: grayscale(0.6);
+        }
+    }
+    .h, .p {
+        z-index: 2;
+        position: relative;
+    }
+    h1, p {
+        transition: all .5s linear;
+        white-space: break-spaces;
+        word-break: break-word;  
+        font-size: 17px;
+        color: #987;
+        line-height: 23px;
+    }
+    h1 {
+        font-size: 20px;
+        color: #000;
+    }
+    .p {
+        padding: 40px 0;
+    }
+    .box:hover {
+        border-color: #999;
+        box-shadow: 3px 3px 4px #00000022;
+        background-image: linear-gradient(to top left, transparent, transparent, transparent, #f7af3433);
+        .hdw {
+            img {
+                filter: grayscale(0);
+            }
+        }
+        .bgic {
+            transform: scale(4) rotate(-45deg);
+            opacity: 0.5;
+            filter: blur(10px);
+        }
+        p {
+            color: #333;
+        }
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+
+
+    #pgtt.nav {
+        .container {
+            display: block;
+            max-width: 1200px;
+        }
+        .p {
+            margin-top: 40px;
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+
+    #starbg, #tpbg {
+        display: none;
+    }
+    #pgtt.nav {
+        .box {
+            padding: 80px 0;
+            .h {
+                font-size: 40px;
+            }
+            .p {
+                margin-top: 20px;
+                font-size: 20px;
+            }
+            .navicos {
+                display: none;
+                position: static;
+                text-align: center;
+                width: auto;
+                img {
+                    margin: 5px;
+                }
+            }
+        }
+        .bgt {
+            display: none;        
+        }
+        .ct {
+            display: none;  
+        }
+        
+    }
+
+    #mdcon pre.nav {
+        display: block;
+        margin: 20px 0;
+        .padiv {
+            display: none;
+        }
+        .nit {
+            display: block;
+            margin: 20px 0;
+            width: auto;
+        }
+        .box {
+        }
+
+    }
+
+
+}
+
