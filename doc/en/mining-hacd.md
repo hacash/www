@@ -53,7 +53,7 @@ You'll also need to open the full node's API service (enable set to true and rem
 <i>listen</i> = <s>8081</s>
 </pre>
 
-Then, download the `diaworker` (diamond miner worker) program for the corresponding operating system in the [Hacash Software Release](https://github.com/hacash/rust/releases) and follow the instructions in [Hacash Config Instruction]( https://github.com/hacash/doc/blob/main/build/config_description.md) Modify the configuration of the mining program `diaworker.config.ini` :
+Then, download the `diaworker` (diamond miner worker) program for the corresponding operating system in the [Hacash Software Release](https://github.com/hacash/fullnode/releases) and follow the instructions in [Hacash Config Instruction]( https://github.com/hacash/doc/blob/main/build/config_description.md) Modify the configuration of the mining program `diaworker.config.ini` :
 
 <pre class="log cnf">
 <i>connect</i> = <s>127.0.0.1:8081</s>

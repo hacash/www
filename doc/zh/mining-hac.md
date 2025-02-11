@@ -40,7 +40,7 @@ HAC 挖矿
 
 ## 开始挖矿
 
-然后，在 [Hacash软件发布中心](https://github.com/hacash/rust/releases) 下载对应的操作系统的 `poworker` (HAC PoW miner worker) 程序，并按照 [Hacash配置说明](https://github.com/hacash/doc/blob/main/build/config_description.md) 修改好挖矿程序的配置 `poworker.config.ini` ：
+然后，在 [Hacash软件发布中心](https://github.com/hacash/fullnode/releases) 下载对应的操作系统的 `poworker` (HAC PoW miner worker) 程序，并按照 [Hacash配置说明](https://github.com/hacash/doc/blob/main/build/config_description.md) 修改好挖矿程序的配置 `poworker.config.ini` ：
 
 <pre class="log cnf">
 <i>connect</i> = <s>127.0.0.1:8081</s>

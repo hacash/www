@@ -41,7 +41,7 @@ Then, enable the configuration of the API service of the full node, so that the 
 
 ## Start mining
 
-Then, download the `poworker` (HAC PoW miner worker) program for the corresponding operating system in the [Hacash Software Release Center](https://github.com/hacash/rust/releases) and follow the instructions in [Hacash Configuration Instructions](https://github.com/hacash/doc/blob/main/build/config_description.md) Modify the configuration of the mining program `poworker.config.ini`:
+Then, download the `poworker` (HAC PoW miner worker) program for the corresponding operating system in the [Hacash Software Release Center](https://github.com/hacash/fullnode/releases) and follow the instructions in [Hacash Configuration Instructions](https://github.com/hacash/doc/blob/main/build/config_description.md) Modify the configuration of the mining program `poworker.config.ini`:
 
 <pre class="log cnf">
 <i>connect</i> = <s>127.0.0.1:8081</s>

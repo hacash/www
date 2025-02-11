@@ -8,7 +8,7 @@ Run a full node in just two steps in the fastest way possible
 
 Select the corresponding operating system to download the Hacash full-node software on Hacash Software Distribution Center to download:
 
-- [Hacash Release Center](https://github.com/hacash/rust/releases)
+- [Hacash Release Center](https://github.com/hacash/fullnode/releases)
 
 The downloaded full-node software zip file contains an executable file and a `.ini` format configuration file, similar to:
 
@@ -59,7 +59,7 @@ memtxpool add diamond create tx: 8ff2157241fa18caaddbcfdb952246d479a309b801e7b6d
 
 ## Compile full node
 
-In addition to [Download Hacash full node software](https://github.com/hacash/rust/releases) directly，it can also be compiled through the source code to obtain the corresponding operating system version software, or to verify:
+In addition to [Download Hacash full node software](https://github.com/hacash/fullnode/releases) directly，it can also be compiled through the source code to obtain the corresponding operating system version software, or to verify:
 
 - [Hacash Fullnode Source Code](https://github.com/hacash/rust)
 - [Hacash Build Doc](https://github.com/hacash/doc/blob/main/build/build_compilation.md)

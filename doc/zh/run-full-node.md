@@ -8,7 +8,7 @@
 
 在 Hacash 软件发布中心下载，请注意在压缩包内选择对应的操作系统版本：
 
-- [Hacash 软件发布](https://github.com/hacash/rust/releases)
+- [Hacash 软件发布](https://github.com/hacash/fullnode/releases)
 
 下载的全节点软件压缩文件中包含一个可执行文件和一个 `.ini` 格式配置文件，类似：
 
@@ -57,7 +57,7 @@ memtxpool add diamond create tx: 8ff2157241fa18caaddbcfdb952246d479a309b801e7b6d
 
 ## 编译全节点
 
-除了直接 [下载Hacash全节点软件](https://github.com/hacash/rust/releases)，也可以通过源码编译，以获得对应操作系统版本软件，或进行验证：
+除了直接 [下载Hacash全节点软件](https://github.com/hacash/fullnode/releases)，也可以通过源码编译，以获得对应操作系统版本软件，或进行验证：
 
 - [Hacash全节点源码](https://github.com/hacash/rust)
 - [Hacash编译部署文档](https://github.com/hacash/doc/blob/main/build/build_compilation.md)

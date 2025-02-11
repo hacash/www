@@ -21,7 +21,7 @@ HACD 接入交易所的补充说明
 https://github.com/hacash/doc-chinese/blob/main/server/hacd_explain_for_exchange.md
 
 全节点软件下载
-https://github.com/hacash/node/releases
+https://github.com/hacash/fullnode/releases
 
 运行全节点
 /run-full-node

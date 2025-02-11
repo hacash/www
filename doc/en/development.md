@@ -22,7 +22,7 @@ HACD additional note for exchanges
 https://github.com/hacash/doc/blob/main/server/hacd_explain_for_exchange.md
 
 Fullnode Download
-https://github.com/hacash/rust/releases
+https://github.com/hacash/fullnode/releases
 
 Run Full Node
 /run-full-node
