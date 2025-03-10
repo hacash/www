@@ -59,7 +59,7 @@ memtxpool add diamond create tx: 8ff2157241fa18caaddbcfdb952246d479a309b801e7b6d
 
 除了直接 [下载Hacash全节点软件](https://github.com/hacash/fullnode/releases)，也可以通过源码编译，以获得对应操作系统版本软件，或进行验证：
 
-- [Hacash全节点源码](https://github.com/hacash/rust)
+- [Hacash全节点源码](https://github.com/hacash/fullnode)
 - [Hacash编译部署文档](https://github.com/hacash/doc/blob/main/build/build_compilation.md)
 
 

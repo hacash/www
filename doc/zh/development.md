@@ -54,7 +54,7 @@ https://github.com/hacash/doc-chinese/blob/main/tech/mining_tech_development_des
 https://github.com/hacash/doc/blob/main/server/fullnode_api_doc.md
 
 全部 API 路由
-https://github.com/hacash/rust/blob/main/src/server/rpc/routes.rs
+https://github.com/hacash/fullnode/blob/main/src/server/api/routes.rs
 
 钱包代码库
 https://github.com/hacash/wallet

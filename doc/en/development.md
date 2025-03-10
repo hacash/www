@@ -54,7 +54,7 @@ Fullnode API Doc
 https://github.com/hacash/doc/blob/main/server/fullnode_api_doc.md
 
 All API Routes
-https://github.com/hacash/rust/blob/main/src/server/rpc/routes.rs
+https://github.com/hacash/fullnode/blob/main/src/server/api/routes.rs
 
 Wallet Code
 https://github.com/hacash/wallet
