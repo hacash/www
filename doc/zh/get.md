@@ -11,6 +11,11 @@
 目前已上线 HAC 的交易所列表：
 
 <pre class="links">
+Hotcoin
+https://www.hotcoin.cc/trade/exchange/?tradeCode=hac_usdt
+hotcoin
+HAC / USDT
+
 Biconomy
 https://www.biconomy.com/exchange/HAC_USDT
 biconomy
@@ -60,6 +65,11 @@ HAC / USDT
 可以通过以下平台或服务商购买 HACD ：
 
 <pre class="links">
+Hotcoin
+https://www.hotcoin.cc/trade/exchange/?tradeCode=hacd_usdt
+hotcoin
+HACD / USDT
+
 Biconomy
 https://www.biconomy.com/exchange/HACD_USDT
 biconomy

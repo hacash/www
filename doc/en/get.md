@@ -14,6 +14,11 @@ Exchange purchase, community transaction or mining to get HAC and HACD
 The exchange of HAC listed on:
 
 <pre class="links">
+Hotcoin
+https://www.hotcoin.cc/trade/exchange/?tradeCode=hac_usdt
+hotcoin
+HAC / USDT
+
 Biconomy
 https://www.biconomy.com/exchange/HAC_USDT
 biconomy
@@ -63,6 +68,11 @@ HAC / USDT
 HACD can be purchased through the following platforms or service providers:
 
 <pre class="links">
+Hotcoin
+https://www.hotcoin.cc/trade/exchange/?tradeCode=hacd_usdt
+hotcoin
+HACD / USDT
+
 Biconomy
 https://www.biconomy.com/exchange/HACD_USDT
 biconomy
