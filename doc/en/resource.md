@@ -45,7 +45,7 @@ Important HIP：
 - [HIP-15 HACD Inscription](https://github.com/hacash/doc/blob/main/HIP/diamond/hacd_inscription.md)
 - [HIP-12 Hacash development workflow](https://github.com/hacash/doc/blob/main/HIP/development/HIP-12_Hacash_development_workflow_and_code_permission.pdf)
 - [HIP-11 HAC currency issuance rules consensus](https://github.com/hacash/doc/blob/main/HIP/currency/HAC_currency_issuance_rules_consensus_proposal.pdf)
-- [HIP-7 PoW consensus of avoid 51 percent attack (Beacon Tower Protocol)](https://github.com/hacash/doc/blob/main/HIP/protocol/tech/PoW_of_avoid_51_percent_attack.md)
+- [HIP-7 PoW consensus of avoid 51 percent attack (Beacon Tower Protocol)](https://github.com/hacash/doc/blob/main/HIP/protocol/PoW_of_avoid_51_percent_attack.md)
 
 
 

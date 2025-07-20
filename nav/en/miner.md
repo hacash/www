@@ -16,12 +16,15 @@ At present, HACD has no mining pool or GPU, and can only build a full node for C
 HAC Mining Pool
 You can build a HAC pool or join someone else's pool. The current mining pool has CPU and GPU, there are different allocation and charging modes, please choose your own mining pool to join.
 
-/mining-resource
-Mining Resource
-In the mining process of HAC and HACD, some resources and tools can be used to improve the efficiency of mining. At the same time, you can also develop some resources that are conducive to Hacash mining.
-
 /development#mining
 Tool Development
 Thanks to the fair distribution model, HAC and HACD mining is still in its early stages, which means there are plenty of opportunities for you to explore and create.
 mining-tool
 </pre>
+
+
+<!--
+/mining-resource
+Mining Resource
+In the mining process of HAC and HACD, some resources and tools can be used to improve the efficiency of mining. At the same time, you can also develop some resources that are conducive to Hacash mining.
+-->

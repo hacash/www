@@ -46,7 +46,7 @@
 - [HIP-14 单向转移跟踪的比特币分叉选择条件](https://github.com/hacash/doc-chinese/blob/main/HIP/currency/bitcoin_fork_selection_rules.md)
 - [HIP-12 Hacash 开发工作流程及代码库权限](https://github.com/hacash/doc-chinese/blob/main/HIP/development/HIP-12_Hacash_development_workflow_and_code_permission.pdf)
 - [HIP-11 HAC 货币发行规则共识提案](https://github.com/hacash/doc-chinese/blob/main/HIP/currency/HAC_currency_issuance_rules_consensus_proposal.pdf)
-- [HIP-7: 防51%算力攻击的 PoW 共识机制（烽火台协议）](https://github.com/hacash/doc-chinese/blob/main/HIP/protocol/tech/PoW_of_avoid_51_percent_attack.md)
+- [HIP-7: 防51%算力攻击的 PoW 共识机制（烽火台协议）](https://github.com/hacash/doc-chinese/blob/main/HIP/protocol/PoW_of_avoid_51_percent_attack.md)
 
 
 
