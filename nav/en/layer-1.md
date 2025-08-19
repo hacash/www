@@ -19,22 +19,22 @@ BTC Inheritor
 BTC can be one-way transferred from layer 1 of Bitcoin to layer 1 of Hacash, becoming the native currency of Hacash.
 one-way-transfer
 
-https://github.com/hacash/doc/blob/main/tech/bitcoin_and_hacash_L1_comparison.md
+https://github.com/hacash/doc/tree/main/tech/bitcoin_and_hacash_L1_comparison.md
 VS. Bitcoin
 On the basis of the technology created by Bitcoin, Hacash focuses on the improvement of monetary attributes and asset mechanisms, and completely redevelops all parts from the bottom.
 vs-bitcoin
 
-https://github.com/hacash/doc/blob/main/tech/protocol_architecture_design_principles.md
+https://github.com/hacash/doc/tree/main/tech/protocol_architecture_design_principles.md
 VS. Ethereum
 Hacash layer 1 follows the design principles in the Hacash whitepaper: simple, compact, controllable and decoupled.
 tech-principle
 
-https://github.com/hacash/doc/blob/main/tech/readability_contract_introduction.md
+https://github.com/hacash/doc/tree/main/tech/readability_contract_introduction.md
 Readable DeFi Contract
 Readable DeFi contract enable the extension of layer 1's financial functions and applications, completely secure, and fully understandable by people with no programming experience.
 readable-contract
 
-https://github.com/hacash/doc/blob/main/tech/privacy_technology_explanation.md
+https://github.com/hacash/doc/tree/main/tech/privacy_technology_explanation.md
 Optional Privacy
 Hacash layer 1 supports a variety of optional privacy technologies.
 privacy

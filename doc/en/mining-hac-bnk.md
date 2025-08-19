@@ -95,5 +95,5 @@ Run Mining Pool
 /mining-pool
 
 Hacash Mining Tech Development
-https://github.com/hacash/doc/blob/main/tech/mining_tech_development_description.md
+https://github.com/hacash/doc/tree/main/tech/mining_tech_development_description.md
 </pre>

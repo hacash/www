@@ -44,7 +44,7 @@ https://explorer.hacash.org?lang=[:=lang.useset:]
 
 ## How to create art at HACD
 
-[HIP-10](https://github.com/hacash/doc/blob/main/HIP/diamond/PoW_Art_Standard.mediawiki) gives everyone a clearer standard rules for artistic creation.
+[HIP-10](https://github.com/hacash/doc/tree/main/HIP/diamond/PoW_Art_Standard.mediawiki) gives everyone a clearer standard rules for artistic creation.
 
 
 ## Why is HACD Valuable

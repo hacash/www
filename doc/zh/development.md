@@ -12,13 +12,13 @@ Hacash 开发相关说明和各工具、接口文档链接
 
 <pre class="links">
 广播交易必读
-https://github.com/hacash/doc-chinese/blob/main/server/memtxpool_operation_important_note.md
+https://github.com/hacash/doc-chinese/tree/main/server/memtxpool_operation_important_note.md
 
 RPC API 接口文档
-https://github.com/hacash/doc-chinese/blob/main/server/fullnode_api_doc.md
+https://github.com/hacash/doc-chinese/tree/main/server/fullnode_api_doc.md
 
 HACD 接入交易所的补充说明
-https://github.com/hacash/doc-chinese/blob/main/server/hacd_explain_for_exchange.md
+https://github.com/hacash/doc-chinese/tree/main/server/hacd_explain_for_exchange.md
 
 全节点软件下载
 https://github.com/hacash/fullnode/releases
@@ -34,13 +34,13 @@ https://github.com/hacash/fullnode/releases
 
 <pre class="links">
 X16RS 挖矿算法说明
-https://github.com/hacash/doc-chinese/blob/main/tech/x16rs_algorithm_description.md
+https://github.com/hacash/doc-chinese/tree/main/tech/x16rs_algorithm_description.md
 
 HAC & HACD 挖矿公平性说明
-https://github.com/hacash/doc-chinese/blob/main/tech/HAC_HACD_mining_fairness_description.md
+https://github.com/hacash/doc-chinese/tree/main/tech/HAC_HACD_mining_fairness_description.md
 
 Hacash 挖矿技术开发说明
-https://github.com/hacash/doc-chinese/blob/main/tech/mining_tech_development_description.md
+https://github.com/hacash/doc-chinese/tree/main/tech/mining_tech_development_description.md
 </pre>
 
 <a name="tool"></a>
@@ -50,11 +50,14 @@ https://github.com/hacash/doc-chinese/blob/main/tech/mining_tech_development_des
 
 
 <pre class="links">
+SDK 开发者文档
+https://github.com/hacash/doc-chinese/tree/main/server/sdk_doc.md
+
 全节点 API 接口文档
-https://github.com/hacash/doc/blob/main/server/fullnode_api_doc.md
+https://github.com/hacash/doc-chinese/tree/main/server/fullnode_api_doc.md
 
 全部 API 路由
-https://github.com/hacash/fullnode/blob/main/src/server/api/routes.rs
+https://github.com/hacash/fullnode/tree/main/src/server/api/routes.rs
 
 钱包代码库
 https://github.com/hacash/wallet
@@ -66,17 +69,17 @@ https://github.com/hacash/explorer
 <a name="core"></a>
 ## 区块链核心层
 
-要参与区块链核心层的开发，需要满足一定的条件，这些条件在 [HIP-12](https://github.com/hacash/doc-chinese/blob/main/HIP/development/HIP-12_Hacash_development_workflow_and_code_permission.pdf) 中有详细说明。每一项对 Hacash 主网核心层的新增和变动，都需要提起一份 HIP 文档作为评估依据。需要编译和部署 Hacash 全节点，这里也有一份简单的指引。
+要参与区块链核心层的开发，需要满足一定的条件，这些条件在 [HIP-12](https://github.com/hacash/doc-chinese/tree/main/HIP/development/HIP-12_Hacash_development_workflow_and_code_permission.pdf) 中有详细说明。每一项对 Hacash 主网核心层的新增和变动，都需要提起一份 HIP 文档作为评估依据。需要编译和部署 Hacash 全节点，这里也有一份简单的指引。
 
 <pre class="links">
 HIP-12
-https://github.com/hacash/doc-chinese/blob/main/HIP/development/HIP-12_Hacash_development_workflow_and_code_permission.pdf
+https://github.com/hacash/doc-chinese/tree/main/HIP/development/HIP-12_Hacash_development_workflow_and_code_permission.pdf
 
 HIP 提案库
-https://github.com/hacash/doc/blob/main/HIP/HIP-table.md
+https://github.com/hacash/doc/tree/main/HIP/HIP-table.md
 
 编译和构建文档
-https://github.com/hacash/doc-chinese/blob/main/build/build_compilation_en.md
+https://github.com/hacash/doc-chinese/tree/main/build/build_compilation_en.md
 </pre>
 
 

@@ -4,7 +4,7 @@ Hacash layer 3
 
 
 <pre class="nav">
-https://github.com/hacash/doc-chinese/blob/main/tech/multi_layer_scaling_concept_definition.md
+https://github.com/hacash/doc-chinese/tree/main/tech/multi_layer_scaling_concept_definition.md
 为什么需要layer 3
 Hacash 的白皮书指出分层扩容才是区块链的未来，并提供了一种新型的layer 2点对点支付技术，而 layer 3 则是由社区提出。为什么需要 layer 3?
 layer-3-intro

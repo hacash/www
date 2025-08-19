@@ -16,7 +16,7 @@ Before you start mining for the first time, you need [Create Account](https://wa
 Before starting full node mining, you need to [run full node](/run-full-node) and wait for all block data synchronization to complete.
 
 
-First of all, you need to configure the full node according to the [Hacash Config Instruction](https://github.com/hacash/doc/blob/main/build/config_description.md), Modify the configuration to enable mining. The `hacash.config.ini` file is a required configuration file for a Hacash full node program and contains various configurations. You need to modify the three parameters under `[miner]` in the configuration file:
+First of all, you need to configure the full node according to the [Hacash Config Instruction](https://github.com/hacash/doc/tree/main/build/config_description.md), Modify the configuration to enable mining. The `hacash.config.ini` file is a required configuration file for a Hacash full node program and contains various configurations. You need to modify the three parameters under `[miner]` in the configuration file:
 
 <pre class="log cnf">
 <b>[miner]</b>
@@ -41,7 +41,7 @@ Then, enable the configuration of the API service of the full node, so that the 
 
 ## Start mining
 
-Then, download the `poworker` (HAC PoW miner worker) program for the corresponding operating system in the [Hacash Software Release Center](https://github.com/hacash/fullnode/releases) and follow the instructions in [Hacash Configuration Instructions](https://github.com/hacash/doc/blob/main/build/config_description.md) Modify the configuration of the mining program `poworker.config.ini`:
+Then, download the `poworker` (HAC PoW miner worker) program for the corresponding operating system in the [Hacash Software Release Center](https://github.com/hacash/fullnode/releases) and follow the instructions in [Hacash Configuration Instructions](https://github.com/hacash/doc/tree/main/build/config_description.md) Modify the configuration of the mining program `poworker.config.ini`:
 
 <pre class="log cnf">
 <i>connect</i> = <s>127.0.0.1:8081</s>
@@ -72,5 +72,5 @@ More Info:
 
 <pre class="links">
 Hacash Mining Tech Development
-https://github.com/hacash/doc/blob/main/tech/mining_tech_development_description.md
+https://github.com/hacash/doc/tree/main/tech/mining_tech_development_description.md
 </pre>

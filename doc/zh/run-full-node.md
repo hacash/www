@@ -19,7 +19,7 @@
 
 <p class="note">注意：`hacash.config.ini` 配置文件中包含boot节点IP地址等全节点运行必须信息，请勿删除或任意修改。如需修改请用文本编辑器打开编辑。</p>
 
-要详细了解各项配置，请查看 [Hacash节点配置说明](https://github.com/hacash/doc/blob/main/build/config_description.md)。
+要详细了解各项配置，请查看 [Hacash节点配置说明](https://github.com/hacash/doc/tree/main/build/config_description.md)。
 
 
 ## 运行
@@ -60,7 +60,7 @@ memtxpool add diamond create tx: 8ff2157241fa18caaddbcfdb952246d479a309b801e7b6d
 除了直接 [下载Hacash全节点软件](https://github.com/hacash/fullnode/releases)，也可以通过源码编译，以获得对应操作系统版本软件，或进行验证：
 
 - [Hacash全节点源码](https://github.com/hacash/fullnode)
-- [Hacash编译部署文档](https://github.com/hacash/doc/blob/main/build/build_compilation.md)
+- [Hacash编译部署文档](https://github.com/hacash/doc/tree/main/build/build_compilation.md)
 
 
 

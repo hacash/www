@@ -14,7 +14,7 @@ Hacash uses a tiered scaling mechanism to solve the scalability problem of block
 
 <pre class="links">
 Explanation of the Hacash multilayer scaling model
-https://github.com/hacash/doc-chinese/blob/main/tech/multi_layer_scaling_concept_definition.md
+https://github.com/hacash/doc-chinese/tree/main/tech/multi_layer_scaling_concept_definition.md
 </pre>
 
 ## Features

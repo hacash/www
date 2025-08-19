@@ -29,7 +29,7 @@ Hacash 的可读金融合约相比于比特币的 UTXO 交易结构更加灵活�
 
 ---
 
-更多与闪电网络的详细对比，请查阅文档 [通道链网络、闪电网络技术点对比](ttps://github.com/hacash/doc/blob/main/tech/channel_chain_vs_lightning_network_cn.md)</a>
+更多与闪电网络的详细对比，请查阅文档 [通道链网络、闪电网络技术点对比](ttps://github.com/hacash/doc/tree/main/tech/channel_chain_vs_lightning_network_cn.md)</a>
 
 ## 快速开始
 

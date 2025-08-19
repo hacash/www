@@ -13,13 +13,13 @@ Exchange or Wallet access assets HAC, HACD or BTC on Hacash blockchain, scan tra
 
 <pre class="links">
 Commit Tx Must Read
-https://github.com/hacash/doc/blob/main/server/memtxpool_operation_important_note.md
+https://github.com/hacash/doc/tree/main/server/memtxpool_operation_important_note.md
 
 Fullnode API Doc
-https://github.com/hacash/doc/blob/main/server/fullnode_api_doc.md
+https://github.com/hacash/doc/tree/main/server/fullnode_api_doc.md
 
 HACD additional note for exchanges
-https://github.com/hacash/doc/blob/main/server/hacd_explain_for_exchange.md
+https://github.com/hacash/doc/tree/main/server/hacd_explain_for_exchange.md
 
 Fullnode Download
 https://github.com/hacash/fullnode/releases
@@ -35,13 +35,13 @@ To run the open source mining pool provided by the Hacash community, please chec
 
 <pre class="links">
 X16RS Mining Algorithm Doc
-https://github.com/hacash/doc/blob/main/tech/x16rs_algorithm_description.md
+https://github.com/hacash/doc/tree/main/tech/x16rs_algorithm_description.md
 
 HAC & HACD Mining Fairness Doc
-https://github.com/hacash/doc/blob/main/tech/HAC_HACD_mining_fairness_description.md
+https://github.com/hacash/doc/tree/main/tech/HAC_HACD_mining_fairness_description.md
 
 Hacash Mining Tech Development
-https://github.com/hacash/doc/blob/main/tech/mining_tech_development_description.md
+https://github.com/hacash/doc/tree/main/tech/mining_tech_development_description.md
 </pre>
 
 
@@ -50,11 +50,14 @@ https://github.com/hacash/doc/blob/main/tech/mining_tech_development_description
 If you want to develop some tools that serve Hacash, studying existing tools such as Hacash's open source wallet and block browser will be a good way to start. These existing tools may not have been documented in the development and use of some interfaces. The following are the code links, API code links, and interface documents for existing tools:
 
 <pre class="links">
+SDK Development Doc
+https://github.com/hacash/doc/tree/main/server/sdk_doc.md
+
 Fullnode API Doc
-https://github.com/hacash/doc/blob/main/server/fullnode_api_doc.md
+https://github.com/hacash/doc/tree/main/server/fullnode_api_doc.md
 
 All API Routes
-https://github.com/hacash/fullnode/blob/main/src/server/api/routes.rs
+https://github.com/hacash/fullnode/tree/main/src/server/api/routes.rs
 
 Wallet Code
 https://github.com/hacash/wallet
@@ -66,16 +69,16 @@ https://github.com/hacash/explorer
 
 ## Blockchain Core
 
-To participate in the development of the core layer of blockchain, certain conditions need to be met, which are detailed in [HIP-12](https://github.com/hacash/doc/blob/main/HIP/development/HIP-12_Hacash_development_workflow_and_code_permission.pdf) . Each addition or change to the core layer of the Hacash main network requires an HIP document as the evaluation basis. We need to compile and deploy the entire Hacash node, and here is also a simple guide.
+To participate in the development of the core layer of blockchain, certain conditions need to be met, which are detailed in [HIP-12](https://github.com/hacash/doc/tree/main/HIP/development/HIP-12_Hacash_development_workflow_and_code_permission.pdf) . Each addition or change to the core layer of the Hacash main network requires an HIP document as the evaluation basis. We need to compile and deploy the entire Hacash node, and here is also a simple guide.
 <pre class="links">
 HIP-12
-https://github.com/hacash/doc/blob/main/HIP/development/HIP-12_Hacash_development_workflow_and_code_permission.pdf
+https://github.com/hacash/doc/tree/main/HIP/development/HIP-12_Hacash_development_workflow_and_code_permission.pdf
 
 HIP Table
-https://github.com/hacash/doc/blob/main/HIP/HIP-table.md
+https://github.com/hacash/doc/tree/main/HIP/HIP-table.md
 
 Build Doc
-https://github.com/hacash/doc/blob/main/build/build_compilation.md
+https://github.com/hacash/doc/tree/main/build/build_compilation.md
 </pre>
 
 

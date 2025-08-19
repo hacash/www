@@ -25,6 +25,7 @@ module.exports = {
     },
 
     ftr: {
+        sdkdoc: "SDK Doc",
         lstif: "List support",
         dvdct: "Exchanges, Wallet Dev Doc",
         lgdsi: "Logo Design Source",

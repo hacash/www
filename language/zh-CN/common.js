@@ -23,12 +23,14 @@ module.exports = {
     },
     
     ftr: {
-        lstif: "列出支持",
+        sdkdoc: "SDK 文档",
+        lstif: "上币或列出支持",
         dvdct: "交易所、钱包等接入",
         lgdsi: "图标设计资源",
         tlik: '链接',
         tcmn: '社区',
         tres: "资源",
+        
     }
 
 

@@ -29,23 +29,23 @@ Articles, blogs, videos, documentation and more about Hacash
 ## Documents
 
 - [Hacash Whitepaper]([:=lang.links.wp:])
-- [Channel Chain Network vs. Lightning Network: A Comparative Analysis of Technical Points](https://github.com/hacash/doc/blob/main/tech/channel_chain_vs_lightning_network.md)
-- [HAC and HACD mining description of fairness](https://github.com/hacash/doc/blob/main/tech/HAC_HACD_mining_fairness_description.md)
-- [X16RS algorithm design and GPU code explanation](https://github.com/hacash/doc/blob/main/tech/x16rs_algorithm_description.md)
-- [Hacash Mining Tech Development](https://github.com/hacash/doc/blob/main/tech/mining_tech_development_description.md)
-- [Comparison of Bitcoin and Hacash's L1 layer technology](https://github.com/hacash/doc-chinese/blob/main/tech/bitcoin_and_hacash_L1_comparison.md)
-- [Conceptual explanation of Hacash's multi-layer scaling model](https://github.com/hacash/doc-chinese/blob/main/tech/multi_layer_scaling_concept_definition.md)
-- [Hacash Privacy Technology Design Principles](https://github.com/hacash/doc-chinese/blob/main/tech/privacy_technology_explanation.md)
-- [Hacash protocol layer technical architecture design philosophy and comparison with Ethereum](https://github.com/hacash/doc-chinese/blob/main/tech/protocol_architecture_design_principles.md)
-- [Introduction and Technical Explanation of Hacash Readable DeFi Contracts](https://github.com/hacash/doc/blob/main/tech/readability_contract_introduction.md)
+- [Channel Chain Network vs. Lightning Network: A Comparative Analysis of Technical Points](https://github.com/hacash/doc/tree/main/tech/channel_chain_vs_lightning_network.md)
+- [HAC and HACD mining description of fairness](https://github.com/hacash/doc/tree/main/tech/HAC_HACD_mining_fairness_description.md)
+- [X16RS algorithm design and GPU code explanation](https://github.com/hacash/doc/tree/main/tech/x16rs_algorithm_description.md)
+- [Hacash Mining Tech Development](https://github.com/hacash/doc/tree/main/tech/mining_tech_development_description.md)
+- [Comparison of Bitcoin and Hacash's L1 layer technology](https://github.com/hacash/doc-chinese/tree/main/tech/bitcoin_and_hacash_L1_comparison.md)
+- [Conceptual explanation of Hacash's multi-layer scaling model](https://github.com/hacash/doc-chinese/tree/main/tech/multi_layer_scaling_concept_definition.md)
+- [Hacash Privacy Technology Design Principles](https://github.com/hacash/doc-chinese/tree/main/tech/privacy_technology_explanation.md)
+- [Hacash protocol layer technical architecture design philosophy and comparison with Ethereum](https://github.com/hacash/doc-chinese/tree/main/tech/protocol_architecture_design_principles.md)
+- [Introduction and Technical Explanation of Hacash Readable DeFi Contracts](https://github.com/hacash/doc/tree/main/tech/readability_contract_introduction.md)
 
 Important HIP：
 
-- [HIP-16 Equity account model and readable contract syntax tree abstraction](https://github.com/hacash/doc/blob/main/HIP/protocol/account_and_syntax_tree_abstraction.md)
-- [HIP-15 HACD Inscription](https://github.com/hacash/doc/blob/main/HIP/diamond/hacd_inscription.md)
-- [HIP-12 Hacash development workflow](https://github.com/hacash/doc/blob/main/HIP/development/HIP-12_Hacash_development_workflow_and_code_permission.pdf)
-- [HIP-11 HAC currency issuance rules consensus](https://github.com/hacash/doc/blob/main/HIP/currency/HAC_currency_issuance_rules_consensus_proposal.pdf)
-- [HIP-7 PoW consensus of avoid 51 percent attack (Beacon Tower Protocol)](https://github.com/hacash/doc/blob/main/HIP/protocol/PoW_of_avoid_51_percent_attack.md)
+- [HIP-16 Equity account model and readable contract syntax tree abstraction](https://github.com/hacash/doc/tree/main/HIP/protocol/account_and_syntax_tree_abstraction.md)
+- [HIP-15 HACD Inscription](https://github.com/hacash/doc/tree/main/HIP/diamond/hacd_inscription.md)
+- [HIP-12 Hacash development workflow](https://github.com/hacash/doc/tree/main/HIP/development/HIP-12_Hacash_development_workflow_and_code_permission.pdf)
+- [HIP-11 HAC currency issuance rules consensus](https://github.com/hacash/doc/tree/main/HIP/currency/HAC_currency_issuance_rules_consensus_proposal.pdf)
+- [HIP-7 PoW consensus of avoid 51 percent attack (Beacon Tower Protocol)](https://github.com/hacash/doc/tree/main/HIP/protocol/PoW_of_avoid_51_percent_attack.md)
 
 
 

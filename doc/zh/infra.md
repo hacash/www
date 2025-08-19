@@ -13,7 +13,7 @@ Hacash 采用分层扩容机制来解决区块链的可扩展问题，这是在 
 
 <pre class="links">
 Hacash 分层扩容模型概念解释
-https://github.com/hacash/doc-chinese/blob/main/tech/multi_layer_scaling_concept_definition.md
+https://github.com/hacash/doc-chinese/tree/main/tech/multi_layer_scaling_concept_definition.md
 </pre>
 
 ## 特点

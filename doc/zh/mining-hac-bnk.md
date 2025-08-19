@@ -92,5 +92,5 @@ do mining height:‹497921›, cbmn:1...
 /mining-pool
 
 Hacash 挖矿技术开发说明
-https://github.com/hacash/doc-chinese/blob/main/tech/mining_tech_development_description.md
+https://github.com/hacash/doc-chinese/tree/main/tech/mining_tech_development_description.md
 </pre>

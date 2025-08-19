@@ -3,7 +3,7 @@ Hacash 列出支持
 
 
 
-本文档提供将 Hacash 列出到第三方工具、服务或平台所需信息。如不完善请在推特 <a href="https://twitter.com/hacashorg" target="_blank">@HacashOrg</a> 下留言，或直接在 <a href="https://github.com/hacash/www/blob/main/doc/en/list-info.md" target="_blank">Github</a> 里提交 commit 来修改本文档。
+本文档提供将 Hacash 列出到第三方工具、服务或平台所需信息。如不完善请在推特 <a href="https://twitter.com/hacashorg" target="_blank">@HacashOrg</a> 下留言，或直接在 <a href="https://github.com/hacash/www/tree/main/doc/en/list-info.md" target="_blank">Github</a> 里提交 commit 来修改本文档。
 
 
 ## 设计元素
@@ -24,7 +24,7 @@ HAC 总量无限，HACD 总量 16,777,216 枚。
 ## 技术对接
 
 - [交易所或钱包接入](/development)
-- [全节点接口文档](https://github.com/hacash/doc/blob/main/server/fullnode_api_doc.md)
+- [全节点接口文档](https://github.com/hacash/doc/tree/main/server/fullnode_api_doc.md)
 
 另外，通过本站的页脚也可以直接快捷跳转到 Hacash 的一些常用的相关网站和社交媒体，来参与讨论 👇
 

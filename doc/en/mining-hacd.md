@@ -29,7 +29,7 @@ Run Full Node
 
 ## Start Mining
 
-First of all, you need to configure the full node according to the [Hacash Config Instruction](https://github.com/hacash/doc/blob/main/build/config_description.md), and modify some parameters under the `[diamondminer]` item in the configuration file `hacash.config.ini`:
+First of all, you need to configure the full node according to the [Hacash Config Instruction](https://github.com/hacash/doc/tree/main/build/config_description.md), and modify some parameters under the `[diamondminer]` item in the configuration file `hacash.config.ini`:
 
 <pre class="log cnf">
 <b>[diamondminer]</b>
@@ -53,7 +53,7 @@ You'll also need to open the full node's API service (enable set to true and rem
 <i>listen</i> = <s>8081</s>
 </pre>
 
-Then, download the `diaworker` (diamond miner worker) program for the corresponding operating system in the [Hacash Software Release](https://github.com/hacash/fullnode/releases) and follow the instructions in [Hacash Config Instruction]( https://github.com/hacash/doc/blob/main/build/config_description.md) Modify the configuration of the mining program `diaworker.config.ini` :
+Then, download the `diaworker` (diamond miner worker) program for the corresponding operating system in the [Hacash Software Release](https://github.com/hacash/fullnode/releases) and follow the instructions in [Hacash Config Instruction]( https://github.com/hacash/doc/tree/main/build/config_description.md) Modify the configuration of the mining program `diaworker.config.ini` :
 
 <pre class="log cnf">
 <i>connect</i> = <s>127.0.0.1:8081</s>

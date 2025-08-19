@@ -19,7 +19,7 @@ The downloaded full-node software zip file contains an executable file and a `.i
 
 <p class="note">Note: The `hacash.config.ini` configuration file contains essential information for the operation of the node, such as the IP address of the network boot node. Do not delete or modify it. If you need to change it, open it in a text editor.</p>
 
-To learn more about each configuration, check out the [Hacash Config description](https://github.com/hacash/doc/blob/main/build/config_description.md).
+To learn more about each configuration, check out the [Hacash Config description](https://github.com/hacash/doc/tree/main/build/config_description.md).
 
 
 ## Run
@@ -62,7 +62,7 @@ memtxpool add diamond create tx: 8ff2157241fa18caaddbcfdb952246d479a309b801e7b6d
 In addition to [Download Hacash full node software](https://github.com/hacash/fullnode/releases) directly，it can also be compiled through the source code to obtain the corresponding operating system version software, or to verify:
 
 - [Hacash Fullnode Source Code](https://github.com/hacash/fullnode)
-- [Hacash Build Doc](https://github.com/hacash/doc/blob/main/build/build_compilation.md)
+- [Hacash Build Doc](https://github.com/hacash/doc/tree/main/build/build_compilation.md)
 
 
 

@@ -6,12 +6,12 @@ Inscriptions, art binding, and tokenization
 HACD originally consisted of 6 letters, and HIP-5 gave the first visual effect of HACD. HIP-8 produces a second visual effect of HACD.
 
 
-HACD already has 3 standard art forms, namely HIP-5, HIP-8 and HIP-9. Theoretically, HACD's new visuals need to meet certain conditions and criteria to guarantee the ultimate fairness of the artwork, which we call it [HIP-10 PoW Art Standard](https://github.com/hacash/doc/blob/main/HIP/diamond/PoW_Art_Standard.mediawiki) .
+HACD already has 3 standard art forms, namely HIP-5, HIP-8 and HIP-9. Theoretically, HACD's new visuals need to meet certain conditions and criteria to guarantee the ultimate fairness of the artwork, which we call it [HIP-10 PoW Art Standard](https://github.com/hacash/doc/tree/main/HIP/diamond/PoW_Art_Standard.mediawiki) .
 
-On top of this, and to support more flexible and richer art forms and artist engagement approaches, the community has proposed [HIP-15](https://github.com/hacash/doc/blob/main/HIP/diamond/hacd_inscription.md), the main mechanism of which is to inscribe a list of stackable, erasable inscriptions on each HACD.
+On top of this, and to support more flexible and richer art forms and artist engagement approaches, the community has proposed [HIP-15](https://github.com/hacash/doc/tree/main/HIP/diamond/hacd_inscription.md), the main mechanism of which is to inscribe a list of stackable, erasable inscriptions on each HACD.
 
 
-Discussions about the HIP-15 proposal took place on [HacashTalk](https://hacashtalk.com/t/hip15-hacd-secondary-artistic-creation-signature-engraving-and-erasure/184) and [Discord](https://discord.com/channels/757976908653920299/802807729584209920/1189460916534771822) and culminated in an implementable execution document: [HIP-15 HACD Inscription](https://github.com/hacash/doc/blob/main/HIP/diamond/hacd_inscription.md).
+Discussions about the HIP-15 proposal took place on [HacashTalk](https://hacashtalk.com/t/hip15-hacd-secondary-artistic-creation-signature-engraving-and-erasure/184) and [Discord](https://discord.com/channels/757976908653920299/802807729584209920/1189460916534771822) and culminated in an implementable execution document: [HIP-15 HACD Inscription](https://github.com/hacash/doc/tree/main/HIP/diamond/hacd_inscription.md).
 
 ---
 

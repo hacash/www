@@ -44,7 +44,7 @@ https://explorer.hacash.org?lang=[:=lang.useset:]
 
 ## 如何在HACD创作艺术
 
-[HIP-10](https://github.com/hacash/doc/blob/main/HIP/diamond/PoW_Art_Standard.mediawiki) 给与了大家一个较为清晰的标准艺术创作规则。
+[HIP-10](https://github.com/hacash/doc/tree/main/HIP/diamond/PoW_Art_Standard.mediawiki) 给与了大家一个较为清晰的标准艺术创作规则。
 
 ## 为什么HACD有价值
 
