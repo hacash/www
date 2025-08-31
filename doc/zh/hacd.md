@@ -67,6 +67,6 @@ BTC的挖矿难度平均为2周进行一次调整。而HACD的挖矿难度只会
 HACD 支持三个层级的艺术创作方式，分别为协议层、HIP可视化层和艺术附加层。
 
 <pre class="links">
-了解 HACD 的艺术
-https://HACD.art
+了解 HACD 的艺术和混合堆叠资产
+https://HACD.it
 </pre>

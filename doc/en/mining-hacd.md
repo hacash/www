@@ -3,7 +3,7 @@ Mining and bidding HACD
 
 
 
-HACD (Block Diamond) is another heterogeneous, indivisible currency on the Hacash network, detail introduction can be found on [HACD.art](https://HACD.art). Mining HACD requires some conditions
+HACD (Block Diamond) is another heterogeneous, indivisible currency on the Hacash network, detail introduction can be found on [HACD.it](https://HACD.it). Mining HACD requires some conditions
 
 ## Get HAC
 
