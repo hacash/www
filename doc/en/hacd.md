@@ -60,6 +60,6 @@ https://explorer.hacash.org?lang=[:=lang.useset:]
 HACD supports three levels of artistic creation, namely the protocol layer, the HIP visualization layer and the art additional layer.
 
 <pre class="links">
-Learn HACD Arts & HST
+Learn HACD
 https://HACD.it
 </pre>

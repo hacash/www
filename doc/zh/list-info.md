@@ -3,7 +3,7 @@ Hacash 列出支持
 
 
 
-本文档提供将 Hacash 列出到第三方工具、服务或平台所需信息。如不完善请在推特 <a href="https://twitter.com/hacashorg" target="_blank">@HacashOrg</a> 下留言，或直接在 <a href="https://github.com/hacash/www/tree/main/doc/en/list-info.md" target="_blank">Github</a> 里提交 commit 来修改本文档。
+本文档提供将 Hacash 列出到第三方工具、服务或平台所需信息。如不完善请在推特 <a href="https://x.com/hacashorg" target="_blank">@HacashOrg</a> 下留言，或直接在 <a href="https://github.com/hacash/www/tree/main/doc/en/list-info.md" target="_blank">Github</a> 里提交 commit 来修改本文档。
 
 
 ## 设计元素
