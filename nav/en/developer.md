@@ -17,6 +17,10 @@ To participate in the development of the blockchain core layer, certain conditio
 Tools Development
 Exploring Hacash's open source wallet and block browser is a good way to start developing tools and applications for Hacash.
 
+https://egos.ia.br/explorer/hacash
+Community Block Explorer
+A real-time Hacash explorer with dashboard stats, block/transaction/address/diamond search, auto-refresh, and full RPC data attribution. Open source.
+
 https://discord.gg/wKAJHxUgb6
 Developer Discussion
 Discord is currently the main place for discussion among Hacash developers.
